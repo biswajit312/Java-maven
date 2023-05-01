@@ -1,1 +1,21 @@
-
+{
+  "name": "My Workflow",
+  "on": {
+    "push": {
+      "branches": [
+        "main"
+      ]
+    }
+  },
+  "jobs": {
+    "build": {
+      "runs_on": "ubuntu-latest",
+      "steps": [
+        {
+          "name": "Java Maven Build",
+          "run": "mvn package"
+        }
+      ]
+    }
+  }
+}
