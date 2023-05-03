@@ -12,7 +12,7 @@
       "runs_on": "ubuntu-latest",
       "steps": [
         {
-          "name": "Java Maven Build",
+          "name": "maven Step",
           "run": "mvn package"
         }
       ]
