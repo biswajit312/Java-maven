@@ -22,6 +22,14 @@
         {
           "name": "sonarqube Step",
           "run": "sonar-scanner"
+        },
+        {
+          "name": "A",
+          "run": "echo 'A'"
+        },
+        {
+          "name": "B",
+          "run": "echo 'B'"
         }
       ]
     }
