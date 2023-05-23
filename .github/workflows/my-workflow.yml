@@ -18,6 +18,10 @@
         {
           "name": "maven Step",
           "run": "mvn package"
+        },
+        {
+          "name": "sonarqube Step",
+          "run": "sonar-scanner"
         }
       ]
     }
