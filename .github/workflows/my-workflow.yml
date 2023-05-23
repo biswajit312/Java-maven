@@ -18,6 +18,14 @@
         {
           "name": "A",
           "run": "echo 'A'"
+        },
+        {
+          "name": "A",
+          "run": "echo 'A'"
+        },
+        {
+          "name": "maven",
+          "run": "echo 'maven'"
         }
       ]
     }
