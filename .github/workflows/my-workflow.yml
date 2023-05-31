@@ -1,4 +1,3 @@
-
 {
   "name": "My Workflow",
   "on": {
@@ -19,6 +18,18 @@
         {
           "name": "A",
           "run": "echo 'A'"
+        },
+        {
+          "name": "A",
+          "run": "echo 'A'"
+        },
+        {
+          "name": "B",
+          "run": "echo 'B'"
+        },
+        {
+          "name": "C",
+          "run": "echo 'C'"
         },
         {
           "name": "A",
